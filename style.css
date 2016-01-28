@@ -1,0 +1,104 @@
+@font-face {
+   font-family: "Prata";
+   src: url("Prata-Regular.ttf");
+}
+body{
+  background-color: #F6E1D1;
+}
+h2 {
+  margin: 45px;
+  color: black;
+  font-family: Cursive;
+  text-align: center;
+
+}
+h3 {
+  font-family: Prata;
+  color: black;
+  margin-left: 250px;
+  margin-right: 20px;
+  font-weight: lighter;
+}
+p {
+  color: black;
+}
+#wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#content {
+  background: white;
+  color : white;
+  width: 70%;
+  float: right;
+  height: 615px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 5px 5px darkgrey;
+}
+#sidebar {
+  background-color: red;
+  height: 615px;
+  float: left;
+  width: 300px;
+  box-shadow: 0 0 5px 5px darkgrey;
+  background: #FF7F50;
+}
+
+p {
+  font-weight: bolder;
+  margin-left: 6px;
+  font-family: roboto,sans-serif;
+}
+
+.barette{
+  color:grey;
+  width: 500px;
+  height: 0;
+  margin-left: 249px;
+  border: solid 1px grey;
+}
+
+#content i {
+ margin-left: 15px;
+ font-size: 50px;
+}
+
+/* ///////////////////////////// */
+.sidebar-top {
+  background: white;
+  height: 300px;
+}
+
+.sidebar-top p {
+  font-weight: bolder;
+  margin-left: 0;
+  margin-top: -330px;
+  color: white;
+  width: 300px;
+  font-family: Prata;
+  text-shadow: 0px 0px 5px #555;
+  font-size: 37px;
+  text-align: center;
+}
+
+img {
+  width:300px;
+}
+
+.sidebar-butom {
+  position: absolute;
+  width: 300px;
+  top: 365px;
+  padding-top: 15px;
+}
+
+.sidebar-butom i {
+  padding-bottom: 8%;
+}
+
+/* custom on font awesome */
+
+.fa-github {
+  float: left;
+}
